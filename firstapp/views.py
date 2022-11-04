@@ -5,6 +5,6 @@ def index(request):
     return HttpResponse('<h1>Title</h1><p>subtittle</p>')
 
 def catalog(request):
-    return HttpResponse('Catalog_')
+    return HttpResponse('Catalog_!!!')
 
 
