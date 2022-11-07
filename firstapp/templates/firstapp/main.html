@@ -1,0 +1,16 @@
+{% extends "firstapp/index.html" %}
+
+{%block body%}
+<h1> Students </h1>
+<table>
+    
+    {% for s in students %}
+    <tr>
+        <td>{{s.name}}</td>
+        <td>{{s.surname}}</td>
+        <td>{{s.age}}</td>
+        <td>{{s.dateOfBirth}}</td>
+    </tr>
+    {% endfor %}  
+</table>
+{%endblock%}
